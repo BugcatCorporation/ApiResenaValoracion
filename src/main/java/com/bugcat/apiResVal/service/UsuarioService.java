@@ -7,9 +7,7 @@ import java.util.List;
 
 
 public interface UsuarioService {
-     List<Usuario> findAll();
+     List<UsuarioDto> findAll();
      Usuario add(Usuario usuario);
-     Usuario update(Usuario usuario);
-     public void delete(long id);
-      UsuarioDto findById(Long id);
+     UsuarioDto findById(Long id);
 }
